@@ -57,3 +57,33 @@ html{
    
   }
 }
+.landing-page-heading2{
+    font-family: 'Aclonica', sans-serif;
+        color: red;
+        font-weight: bold;
+        padding-top: 20px;
+        font-size: 2em;
+    }
+  .landing-page-heading{
+    width: 500px;
+    position:relative;
+    animation:mymove 5s infinite;
+    animation-delay:2s;
+    animation-iteration-count:infinite;
+    -webkit-animation:mymove 5s infinite;
+    -webkit-animation-delay:1s;
+    -webkit-animation-iteration-count:infinite;
+  }
+  
+  @keyframes mymove {
+     from {
+        left:90px;   }   
+     to {
+        left:490px;   }
+  }
+  @-webkit-keyframes mymove  {
+     from {
+        left:90px;   }   
+     to {
+        left:490px;   }
+  }

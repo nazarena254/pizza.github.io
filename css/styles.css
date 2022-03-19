@@ -104,7 +104,19 @@ html{
     background-color: #979b9c;
     font-family:'Poppins', sans-serif; 
 }
-
+.about-us-heading{
+    font-family: 'Aclonica', sans-serif;
+      color: red;
+    }
+  #about-us-heading1{
+      padding-top: 30px;
+      padding-bottom: 25px;
+      font-weight: bold;
+    }
+  #about-us-heading2{
+      padding-bottom: 15px;
+      font-weight: bold;
+    }
 
 
 

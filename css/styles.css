@@ -57,7 +57,7 @@ html{
    
   }
 }
-.landing-page-heading2{
+#landing-page-heading2{
     font-family: 'Aclonica', sans-serif;
         color: red;
         font-weight: bold;
@@ -77,15 +77,15 @@ html{
   
   @keyframes mymove {
      from {
-        left:90px;   }   
+        left:0px;   }   
      to {
-        left:490px;   }
+        left:250px;   }
   }
   @-webkit-keyframes mymove  {
      from {
-        left:90px;   }   
+        left:0px;   }   
      to {
-        left:490px;   }
+        left:250px;   }
   }
   #mouse-click{
     padding-top : 160px;

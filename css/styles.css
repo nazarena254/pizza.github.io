@@ -87,3 +87,24 @@ html{
      to {
         left:490px;   }
   }
+  #mouse-click{
+    padding-top : 160px;
+    margin-top: 10%;
+    padding-bottom: 30px; 
+  }
+  #mouse-click {
+    animation: bounce 2s infinite;
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0);}
+    40% {transform: translateY(-60px);}
+    60% {transform: translateY(-50px);}
+  }
+#about_us{
+    background-color: #979b9c;
+    font-family:'Poppins', sans-serif; 
+}
+
+
+
+

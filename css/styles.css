@@ -27,3 +27,9 @@ html{
     color: black;
     background-color: #6e7172;
   }
+.container{
+    display: flex;
+}
+#span1{
+    color: red;
+}

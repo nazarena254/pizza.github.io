@@ -165,7 +165,31 @@ html{
         padding-left: 6%;
         font-weight: bold;
         font-family:'Poppins', sans-serif; 
-      }           
+      }
+      .choice{
+        display: none;
+        padding-left: 2%;
+        padding-right: 2%;
+      }
+      .deliver{
+        display: none;
+      }
+      .delivery{
+        display: none;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+      td,th{
+        font-size: 20px;
+        color: white; 
+      }
+      .sausage-bacon{
+        padding-right: 10px;
+      }
+      #topping-label{
+        padding-bottom: 2px;
+      }
+                       
       
 
 

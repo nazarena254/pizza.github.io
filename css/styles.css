@@ -41,6 +41,7 @@ html{
     color: white;
     text-align: center;
     height: 560px;
+    scroll-behavior: smooth;
   }
   .landing-page-heading1{
     font-family: 'Aclonica', sans-serif;

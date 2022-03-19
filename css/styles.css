@@ -42,3 +42,18 @@ html{
     text-align: center;
     height: 560px;
   }
+  .landing-page-heading1{
+    font-family: 'Aclonica', sans-serif;
+      font-weight: bold;
+      padding-top: 80px;
+      color: red;
+      font-size: 3em;
+      letter-spacing: 2px;
+      animation: bounce 3s ease infinite ;
+  }    
+@keyframes bounce {
+  100% {
+    top: -10px;
+   
+  }
+}

@@ -33,3 +33,12 @@ html{
 #span1{
     color: red;
 }
+.landing{
+    background-image: url('../images/home2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    height: 560px;
+  }

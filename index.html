@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.jpg" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/bootstrap-slider.min.js" integrity="sha512-f0VlzJbcEB6KiW8ZVtL+5HWPDyW1+nJEjguZ5IVnSQkvZbwBt2RfCBY0CBO1PsMAqxxrG4Di6TfsCPP3ZRwKpA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- bootstrap cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- relative css link -->
+    <link rel="stylesheet" href="css/styles.css">
+     <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- CDN jQuery script link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- Link for google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Poppins:wght@400;500;700&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Pizza Inn</title>
+</head>
+<body id="main-body">
+    <a name="top1"></a> 
+    <div class="navbar"> 
+         <div class="container">
+            
+             <nav id="nav">
+                 <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                 <span class="navbar-toggler-icon"></span>
+                 </button> -->
+                 <ul>
+                     <li><a href="index.html">Pizza<span id="span1">Inn</span></a></li>
+                     <li><a href="#top2">Home</a></li>
+                     <li><a href="#about_us">About us</a></li> 
+                     <li><a href="#bottom">Contact</a></li> 
+                     <li><a href="#order">Order now!</a></li> 
+                 </ul>
+             </nav>
+         </div> 
+    </div>
+    <a name="top2" ></a>
+    <div class="landing container-fluid" >
+        <h1 class="landing-page-heading1">Pizza Inn</h1>        
+        <div class="landing-page-heading"><h3  class="landing-page-heading2">Order your favourite Pizza now !!!</h></div>
+        <div class="mouse-click"></div>
+        <a href="#about_us"><img src="images/arrow.png" width="50px" alt=" mouse_click image" id="mouse-click" ></a> 
+     </div>
+
+    <div class="controls-top text-center" id="about_us"> 
+       <h2 id="about-us-heading1" class="about-us-heading">About Us</h2>
+        <div class="container-fluid section" id="about-us">
+            <div class="col-sm-12 d-flex flex-xs-column">
+                <div class="col-sm-6 img text-center about-img">
+                    <div class="about-pic">
+                    <img src="https://acegif.com/wp-content/gifs/pizza-21.gif" height="220px" width="400px" alt="about-us-pizza-gif">
+                    </div>
+                </div>
+                <div class="col-sm-6 align-items-center">
+                <div class="content">
+                    <h3 id="about-us-heading2" class="about-us-heading" >What Do PizzaInn Offer?</h3>
+                    <p id="about-us-paragraph" >PizzaInn Restaurant has been in pizza business for over 10 years now.
+                        Our pizza are known to be delicious and of great quality.
+                        We offer a very unique atmosphere for customers in addition to home 
+                        delivery services for all pizza orders. We know that pizza is a family 
+                        meal which is popular around the world and that has resulted in a large
+                        number of chains of pizza restaurants but non of them is the 
+                        best than our Pizza.
+                    </p>
+                </div>
+                </div>
+            </div>
+       </div>
+    </div>
+
+    <div class="container-fluid my-4 pizza-types">
+        <div class="carousel slide carousel-multi-item" data-ride="carousel" id="variety">  
+            <div class="controls-top slide-heading"> 
+                <h2  id="slide-heading1" class="about-us-heading">Our Pizza Varieties</h2>
+            </div>
+            <ol class="carousel-indicators">
+                <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                <li data-target="#multi-item-example" data-slide-to="1"></li>
+                <li data-target="#multi-item-example" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <img class="card-img-top" src="images/burger.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Cheese burger</h5>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <img class="card-img-top" src="images/veg.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Vegetable pizza</h5>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="images/hawa.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Chicken hawaiian</h5>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+               <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <img class="card-img-top" src="images/peri.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Periperi pizza</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <img class="card-img-top" src="images/macon.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chicken macon Bbq</h5>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                            <img class="card-img-top" src="images/sausage.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sausage</h5>
+                            </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+          </div>
+      </div>
+    </div>
+  
+  <a name="order"></a>
+  <div class="container-fluid order" id="make-order">
+     <div class="order-overlay">
+        <div class="controls-top text-center" id="Order-now"> 
+          <h2 class="order-heading">Order Here</h2>
+        </div>
+        <h3 class="order-heading" >Make your order here and we will deliver pizza at your door step!</h3>
+        <br><div class="row">
+            <div class="col-sm-5">
+              <form action="">
+                  <label for="select">Select Your Flavor</label><br>
+                  <select class="browser-default custom-select custom-select-md mb-3 name">
+                    <option value="Chicken hawaiian">Chicken hawaiian</option>
+                    <option value="PeriPeri Pizza">PeriPeri Pizza</option>
+                    <option value="Vegetable Pizza">Vegetable Pizza</option>
+                    <option value="Chicken macon BBQ">Chicken macon BBQ</option>
+                    <option value="Cheese burger">Cheese burger</option>
+                    <option value="Sausage Pizza">Sausage Pizza</option>
+                  </select>
+                  <br><label for="select">Select Your Pizza Size </label><br>
+                  <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                    <option selected value="0">Select size here</option>
+                    <option value="large">Large  Ksh. 1200</option>
+                    <option value="regular">Regular  Ksh. 800</option>
+                    <option value="small">Small  Ksh. 600</option>
+                  </select>
+                  <br><label for="crust">Choose your favorite Crust!</label><br>
+                  <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                    <option selected value="0">Select your preferred crust!</option>
+                    <option value="Crispy">Crispy  Ksh. 200</option>
+                    <option value="Stuffed">Stuffed  Ksh. 250</option>
+                    <option value="Thin">Thin Ksh. 150</option>
+                  </select>
+                <br><label id="topping-label" for="Toppings">Select Your Toppings at Ksh. 100 each</label>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
+                    <label class="custom-control-label sausage-bacon" for="Sausage">Sausage</label>
+                                    
+                    <input type="checkbox" class="custom-control-input " id="Bacon" value="Bacon" name="toppings">
+                    <label class="custom-control-label sausage-bacon" for="Bacon">Bacon</label>
+                
+                    <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
+                    <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
+                  </div>
+                  <br><br>
+                <button type="submit" class="btn btn-danger continue">Continue</button>
+              </form>
+            </div> <!--//end of col-sm -->
+            <div class="col-sm-7">
+              <div id="information">
+                <h5><strong>PizzaInn Orders !!!</strong></h5>
+                <p>Fill in with details of desired pizza choice</p>
+                <p>We will process your order and deliver pizza within an hour.</p>
+                <p>Ensure you have the total amount before delivery.</p>
+                <p id="regards">Thank you, We value You!</p>
+              </div>
+
+              <div class="choice">
+                  <h4>Your Order is:</h4>
+                  <div id="your-orders">
+                      <table class="table table-sm  pizzatable">
+                        <thead>
+                          <tr>
+                            <th scope="col">Pizza name</th>
+                            <th scope="col">Size</th>
+                            <th scope="col">Crust</th>
+                            <th scope="col">Topping</th>
+                            <th scope="col">Total</th>
+                          </tr>
+                        </thead>
+                        <tbody id="ordersgiven">
+                          <tr>
+                            <td id="pizzaname"></td>
+                            <td id="pizzasize"></td>
+                            <td id="pizzacrust"></td>
+                            <td id="pizzatopping"></td>
+                            <td id="totals"></td>
+                          </tr>                  
+                        </tbody>
+                      </table>
+                      <p id="pizzatotal"></p>
+                      <p id="totalbill"></p> 
+                      <p id="addedprice">Delivery Cost: Ksh. 150</p>
+                      <p id="finallmessage"></p>
+                  </div>
+                  <button class="btn btn-danger addPizza">Order another Pizza</button>
+                  <button class="btn btn-danger" id="checkout">Checkout</button>
+                  <button class="btn btn-danger deliver">Accept delivery</button>
+              </div>
+              <div class="delivery">
+                  <form action="">
+                    <div class="form-group">
+                      <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                      <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                      <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                      <button class="btn btn-danger" id="final-order">Place Order</button>
+                    </div>
+                  </form>
+              </div>
+            </div> <!--//end of col-sm-7 --> 
+        </div> <!--//end of row div -->
+
+    </div> <!--//end of overlay div-->
+
+  </div>  <!--//end of make-order container-fluid-->
+
+  <a name="bottom" ></a>
+  <div class="container-fluid " id="contact">
+        <div class="controls-top "> 
+            <h3 id="contact-heading">Contacts</h3>
+        </div>
+        <div class="row" id="contactdetails">
+            <div class="col-md-4">
+               <h5 class="contact-sub-heading">Social Media</h5>
+               <p><img src="images/twitter.png" width="30px" alt="twitter"> @pizzaInn.nyeri</p>
+               <p><img src="images/facebook.png"  width="30px" alt="facebook"> pizzaInn@nyeri</p> 
+               <p><img src="images/you_tube.png"  width="30px" alt="you_tube"> trypizzaInn</p>
+            </div>
+            <div class="col-md-4 text-justify">
+                <h5 class="contact-sub-heading">Pysical Location</h5>
+                <p>PizzaInn</p>
+                <p>Pizza house | Nyeri</p>
+                <p>80-10103, Nyeri </p>
+            </div>
+            <div class="col-md-4">
+                <h5 class="contact-sub-heading">Customer Care</h5>
+                <p>denniskarani@gmail.com</p>
+                <p>Tell:  024576778900</p> 
+                <p>Phone: +254713576900</p>
+           </div>
+           
+      </div>
+        
+      <div class="row " >
+          <div class="container text-center footer reserved">
+             <p id="rights">&copy; <script>document.write(new Date().getFullYear())</script> PizzaInn All Rights Reserved </p></p>
+          </div>
+      </div>
+  </div>
+  
+    <script src="js/mdb.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

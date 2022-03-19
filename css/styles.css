@@ -125,7 +125,27 @@ html{
         padding-bottom: 15px;
         padding-top: 15px;
         font-weight: bold;  
-    }  
+    }
+    .pizza-types{
+        font-family:'Poppins', sans-serif; 
+      }
+      .slide-heading{
+        padding-left: 100px;
+        text-align: center;
+      }
+      .card-img-top{
+        height: 280px;
+      }
+      .card-title{
+        font-weight: bold;
+        color: red;
+        font-size: larger;
+        height: 25px;
+        font-family: 'Righteous', cursive;
+      }
+      .pizza-types{
+        background-color: #979b9c;
+      }     
 
     
 

@@ -155,7 +155,17 @@ html{
         padding-top: 4%;
         padding-bottom: 4%;
       }
-           
+.order-overlay{
+        background-color: #1a1919;
+        color: whitesmoke;
+        opacity: 65%;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-bottom: 20px;
+        padding-left: 6%;
+        font-weight: bold;
+        font-family:'Poppins', sans-serif; 
+      }           
       
 
 

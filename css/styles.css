@@ -126,26 +126,40 @@ html{
         padding-top: 15px;
         font-weight: bold;  
     }
-    .pizza-types{
+.pizza-types{
         font-family:'Poppins', sans-serif; 
       }
-      .slide-heading{
+.slide-heading{
         padding-left: 100px;
         text-align: center;
       }
-      .card-img-top{
+.card-img-top{
         height: 280px;
       }
-      .card-title{
+.card-title{
         font-weight: bold;
         color: red;
         font-size: larger;
         height: 25px;
         font-family: 'Righteous', cursive;
       }
-      .pizza-types{
+.pizza-types{
         background-color: #979b9c;
-      }     
+      } 
+.order{
+        background-attachment: fixed;
+        background-image: url("../images/pizza1.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 4%;
+        padding-bottom: 4%;
+      }
+           
+      
+
+
+
 
     
 
